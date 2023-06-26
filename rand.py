@@ -1,7 +1,5 @@
-from flask import Flask, redirect, render_template, request
-from flask_mail import Mail, Message
+from flask import Flask, redirect, render_template
 import random
-import smtplib
 
 app = Flask(__name__)
 
